@@ -1,5 +1,7 @@
 # Note-Taker
 
+<img src="simplenotes.png">
+
 ## Description
 
 In this challenge, I made a Note Taker using express.js you can make notes and save them as well as delete them. 
