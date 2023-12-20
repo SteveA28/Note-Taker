@@ -11,7 +11,7 @@ I used visual studio code to create this code setting up the api routes and html
 
 Link to the deployed application: 
 
-*/link here*/
+https://simple-notes-32efc0494d5f.herokuapp.com/
 
 ## Credits
 
