@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Taker - Notes</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Notes</h1>
+    <div class="row">
+      <div class="col">
+        <div class="list-group" id="note-list">
+        
+        </div>
+      </div>
+      <div class="col">
+        <form id="note-form">
+          <label for="note-title">Note Title:</label>
+          <input type="text" id="note-title" name="note-title" required>
+          <label for="note-text">Note Text:</label>
+          <textarea id="note-text" name="note-text" rows="4" required></textarea>
+          <button type="button" id="save-note">Save Note</button>
+          <button type="button" id="clear-form">Clear Form</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/notes.js"></script>
+</body>
+
+</html>
